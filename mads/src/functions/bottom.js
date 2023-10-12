@@ -1,15 +1,25 @@
 import React, { useState } from 'react';
 import './Login.css';
 import WelcomePage from './WelcomePage'; // Importa la página de bienvenida
+import Swal from 'sweetalert2'; // Importa SweetAlert
 
 function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [redirectToWelcome, setRedirectToWelcome] = useState(false);
 
-  const handleLogin = () => {
+  const handleLogin = (e) => {
+    e.preventDefault(); // Evita que el formulario se envíe y la página se recargue
+
     if (email.trim() !== '' && password.trim() !== '') {
-      setRedirectToWelcome(true); // Activa la redirección si ambos campos no están vacíos
+      setRedirectToWelcome(true);
+    } else {
+      // Muestra una alerta SweetAlert en caso de campos vacíos
+      Swal.fire({
+        icon: 'error',
+        title: 'Campos vacíos',
+        text: 'Por favor, llene todos los campos',
+      });
     }
   };
 
@@ -21,7 +31,7 @@ function Login() {
     <div className="login-container">
       <div className="login-box">
         <h1>Iniciar sesión</h1>
-        <form>
+        <form onSubmit={handleLogin}>
           <div>
             <label>Correo electrónico:</label>
             <input
@@ -41,7 +51,7 @@ function Login() {
             />
           </div>
           <hr />
-          <button onClick={handleLogin}>Iniciar Sesión</button>
+          <button type="submit">Iniciar Sesión</button>
         </form>
       </div>
     </div>
@@ -49,4 +59,3 @@ function Login() {
 }
 
 export default Login;
-
