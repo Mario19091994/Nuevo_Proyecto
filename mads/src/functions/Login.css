@@ -39,8 +39,8 @@
   button {
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
-    color: white;
+    background-color: #0d3e07;
+    color: rgb(140, 124, 124);
     border: none;
     border-radius: 5px;
     cursor: pointer;
