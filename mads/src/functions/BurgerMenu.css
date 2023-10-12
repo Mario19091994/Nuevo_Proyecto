@@ -1,0 +1,26 @@
+.burger-menu {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+.menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.menu {
+  background: #fff;
+  display: none;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.menu.visible {
+  display: block;
+}
