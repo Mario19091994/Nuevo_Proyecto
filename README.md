@@ -1,2 +1,2 @@
 # Nuevo_Proyecto
-![Ejemplo de captura de pantalla](/imagenes/captura.png)
+![Ejemplo de captura de pantalla](mads/src/functions/css/images/capturas/1.jpg)
