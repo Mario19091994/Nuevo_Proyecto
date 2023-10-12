@@ -1,2 +1,2 @@
 # Nuevo_Proyecto
-Nuevo Proyecto con reactjs
+![Ejemplo de captura de pantalla](/imagenes/captura.png)
