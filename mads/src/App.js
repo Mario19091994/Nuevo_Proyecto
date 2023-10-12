@@ -1,11 +1,10 @@
 import './App.css';
-import MyButton from './functions/bottom';
-
+import Login from './functions/bottom';
 function App() {
   return (
     <div>
-      <h1>Bienvenido soldado</h1>
-      <MyButton />
+      <h1>Bienvenido a casa soldado</h1>
+      <Login />
     </div>
   );
 }
