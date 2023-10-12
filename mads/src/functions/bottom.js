@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Login.css';
+import './css/Login.css';
 import WelcomePage from './WelcomePage'; // Importa la página de bienvenida
 import Swal from 'sweetalert2'; // Importa SweetAlert
 
@@ -35,7 +35,7 @@ function Login() {
           <div>
             <label>Correo electrónico:</label>
             <input
-              type="text"
+              type="email"
               placeholder="Ingrese su correo electrónico"
               value={email}
               onChange={(e) => setEmail(e.target.value)}

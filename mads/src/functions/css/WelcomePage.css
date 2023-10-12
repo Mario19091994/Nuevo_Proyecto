@@ -6,7 +6,10 @@
     height: 100vh;
     background-color: #f0f0f0;
   }
-  
+  img {
+    max-width: 40%;
+    height: auto; /* Esto asegura que la relación de aspecto original se mantenga */
+  }
   h1 {
     font-size: 2em;
     color: #007bff;

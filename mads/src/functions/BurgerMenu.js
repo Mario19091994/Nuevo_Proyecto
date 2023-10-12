@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import './BurgerMenu.css';
+import './css/BurgerMenu.css';
+import LogoutButton from './LogoutButton'; // Importa el botón de cierre de sesión
 
 function BurgerMenu() {
   const [menuVisible, setMenuVisible] = useState(false);
@@ -18,10 +19,12 @@ function BurgerMenu() {
       </button>
       <div className={`menu ${menuVisible ? 'visible' : ''}`}>
         <ul className="list-group">
-          <li className="list-group-item">Inicio</li>
-          <li className="list-group-item">Perfil</li>
-          <li className="list-group-item">Configuraciones</li>
-          {/* Agrega más elementos de menú aquí */}
+          <li className="list-group-item">Inicio (en contrucción)</li>
+          <li className="list-group-item">Perfil (en contrucción)</li>
+          <li className="list-group-item">Configuraciones(en contrucción)</li>
+          <li className="list-group-item">
+            <LogoutButton/> 
+          </li>
         </ul>
       </div>
     </div>
