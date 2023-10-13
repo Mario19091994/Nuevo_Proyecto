@@ -27,3 +27,5 @@
 ![Ejemplo de captura de pantalla](mads/src/functions/css/images/capturas/10.jpg)
 ![Ejemplo de captura de pantalla](mads/src/functions/css/images/capturas/21.jpg)
 ![Ejemplo de captura de pantalla](mads/src/functions/css/images/capturas/20.jpg)
+![Ejemplo de captura de pantalla](mads/src/functions/css/images/capturas/22.jpg)
+![Ejemplo de captura de pantalla](mads/src/functions/css/images/capturas/23.jpg)
