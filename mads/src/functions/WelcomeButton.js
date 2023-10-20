@@ -1,5 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import bienvenidaImage from './css/images/meme-movie.gif'; // Importa la imagen local
 

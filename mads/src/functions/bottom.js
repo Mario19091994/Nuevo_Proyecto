@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState,Components } from 'react';
 import './css/Login.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import Button from 'react-bootstrap/Button';
 import WelcomePage from './WelcomePage'; // Importa la página de bienvenida
 import Swal from 'sweetalert2'; // Importa SweetAlert
