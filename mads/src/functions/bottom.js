@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './css/Login.css';
+import Button from 'react-bootstrap/Button';
 import WelcomePage from './WelcomePage'; // Importa la página de bienvenida
 import Swal from 'sweetalert2'; // Importa SweetAlert
 
@@ -51,7 +52,7 @@ function Login() {
             />
           </div>
           <hr />
-          <button type="submit">Iniciar Sesión</button>
+          <Button variant="primary" type="submit">Iniciar Sesión</Button>
         </form>
       </div>
     </div>

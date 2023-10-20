@@ -1,5 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
+import { Button } from 'react-bootstrap';
 import Milos from './css/images/meme-movie.gif'; // Importa la imagen local
 
 function RicardoMilos() {
@@ -18,7 +19,7 @@ function RicardoMilos() {
 
   return (
     <div>
-      <button onClick={showWelcomeAlert}>Porfavor, no tocar</button>
+      <Button onClick={showWelcomeAlert}>Porfavor, no tocar</Button>
     </div>
   );
 }

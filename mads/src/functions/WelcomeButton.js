@@ -1,5 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
+import Button from 'react-bootstrap/Button';
 import bienvenidaImage from './css/images/meme-movie.gif'; // Importa la imagen local
 
 function WelcomeButton() {
@@ -18,7 +19,7 @@ function WelcomeButton() {
 
   return (
     <div>
-      <button onClick={showWelcomeAlert}>Prohibido tocar</button>
+      <Button onClick={showWelcomeAlert}>Show Toast</Button>
     </div>
   );
 }
